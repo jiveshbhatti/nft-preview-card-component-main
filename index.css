@@ -1,3 +1,14 @@
+body{
+    display: flex;
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    font-weight: 300;
+
+}
+
+
 .container{
     display: flex;
     flex-direction: column;
@@ -6,25 +17,31 @@
     background-color: hsl(216, 50%, 16%);
     width: 360px;
     height: 600px;
-    margin: auto;
+    /* margin: 0 auto; */
+    row-gap: 3px;
+    border-radius: 20px;
+ 
+ 
+    
+   
 }
 
 #title{
-
-    color: white;
-    width: 31vh;
+    color: hsl(0, 0%, 100%);
+    width: 300px;
 
    
 }
 #desc{
     width: 300px;
-
+    padding-bottom: 15px;
+    color: hsl(215, 26%, 54%);
 }
 
-img{
+#main{
     width: 300px;
-    padding: 10px;
-    
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 
@@ -32,9 +49,34 @@ img{
 .priceArea{
     display: flex;
     justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    /* margin: 5px; */
+    width: 300px;
+    height: 30px;
+    /* padding: 5px; */
+   color:  hsl(216, 16%, 60%);
+   
+}
+.priceArea img{
+    padding-right: 5px;
+   
 }
 
 #price{
+    color: hsl(178, 100%, 50%);
+}
 
-    color: hsl(178, 100%, 50%)
+#footer{
+    display: flex;
+    align-items: center;
+    gap: 0px 15px;
+    width: 300px;
+    padding-top: 15px;
+    color: hsl(214, 19%, 69%);
+}
+#footer img{
+    width: 30px;
+    padding-right: 5px;
+   
 }
