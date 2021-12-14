@@ -24,7 +24,12 @@ body {
 #title {
   color: hsl(0, 0%, 100%);
   width: 300px;
+  
 }
+#title:hover{
+    color: turquoise;
+}
+
 #desc {
   width: 300px;
   padding-bottom: 15px;
@@ -67,6 +72,10 @@ body {
 #footer img {
   width: 30px;
   padding-right: 5px;
+}
+
+#footer:hover{
+    color: turquoise;
 }
 hr {
     width: 300px;
