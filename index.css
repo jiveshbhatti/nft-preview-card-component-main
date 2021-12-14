@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-style: solid;
+  
   background-color: hsl(216, 50%, 16%);
   width: 360px;
   height: 600px;
@@ -40,6 +40,11 @@ body {
   width: 300px;
   border-radius: 10px;
   margin-top: 20px;
+}
+#main:hover{
+   
+    display: inline;
+    background: url("./images/icon-view.svg") no-repeat;
 }
 
 .priceArea {
